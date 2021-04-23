@@ -1,0 +1,1 @@
+emit "%1" [|cm -2| aes -RMCBC REFINERYTESTDATA | dump -t {sha256}.enc | aes -MCBC REFINERYTESTDATA | sha256 -t | cfmt {sha256}\n{} ]]
