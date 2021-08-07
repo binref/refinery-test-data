@@ -1,6 +1,6 @@
 # Binary Refinery Test Data
 
-The files in this repository are sample used as unit tests for the [binary refinery][binref]. As many of
+The files in this repository are samples used in unit tests for the [binary refinery][binref]. As many of
 the samples are **malware**, they have been encrypted. Please take all necessary precautions when dealing
 with these files, they might be dangerous to your device.
 Samples from this repository can be decrypted using AES-128 in CBC mode, using the key `REFINERYTESTDATA`
