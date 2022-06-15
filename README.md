@@ -7,7 +7,7 @@ Samples from this repository can be decrypted using AES-128 in CBC mode, using t
 and an all-zero initialization vector. Using [binary refinery][binref]:
 ```
 emit ee790d6f09c2292d457cbe92729937e06b3e21eb6b212bf2e32386ba7c2ff22c.enc \
-  | aes -MCBC REFINERYTESTDATA \
+  | aes --mode=cbc REFINERYTESTDATA \
   | dump ee790d6f09c2292d457cbe92729937e06b3e21eb6b212bf2e32386ba7c2ff22c
 ```
 
